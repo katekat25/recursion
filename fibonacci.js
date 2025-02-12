@@ -21,6 +21,3 @@ function fibsRec(num) {
     const array = fibsRec(num - 1);
     return [...array, array[num - 1] + array[num - 2]];
 }
-
-console.log(fibs(8));
-console.log(fibsRec(8));
