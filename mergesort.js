@@ -25,10 +25,3 @@ function mergeSort(array) {
     const sortedArray = array.slice();
     return split(sortedArray);
 }
-
-console.log(mergeSort([3, 2, 1, 13, 8, 5, 0, 1]));
-
-//split the array in two
-//select the left array
-//split that array until its size is one
-//if size is one, 
